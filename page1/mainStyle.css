@@ -1,0 +1,68 @@
+p {
+   
+    font-size: 160px;
+    color: #FFFFFF;
+    
+}
+
+body {
+    
+    background-color: #FFFFFF;
+    background-image: url("img/background1.png");
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: 100px 100px;
+    direction: rtl;
+    
+}
+
+.meme {
+    
+    font-size: 200px;
+    color: #FF00FF;
+    opacity: 0.3;
+    text-decoration: line-through overline underline;
+    
+    transform: rotateX(150deg) rotateZ(90deg);
+    
+}
+
+.box {
+    
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    
+    width: 50px;
+    border: 25px solid #FF00FF;
+    padding: 200px;
+    margin: 10px;
+    
+}
+
+.fbox {
+    
+    position: absolute;
+    top: 80
+    
+}
+
+.flexBox {
+    
+    display: -webkit-flex;
+    display: flex;
+    width: 400px;
+    height: 250px;
+    background-color: lightgrey;
+    
+}
+
+.flexItem {
+    
+    background-color: cornflowerblue;
+    width: 100px; 
+    height: 100px;
+    margin: 100px;
+    
+}
